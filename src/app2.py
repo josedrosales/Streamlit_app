@@ -17,7 +17,7 @@ class_dict = {
 st.title('Modelo de Predicción de Iris')
 
 # Entrada de datos del usuario para hacer predicciones
-st.sidebar.header('Parámetros de entrada')
+#st.sidebar.header('Parámetros de entrada')
 sepal_length = st.slider('Sepal length (cm)', min_value=0.0, max_value=6.0, step=0.1)
 sepal_width = st.slider('Sepal width (cm)', min_value=0.0, max_value=6.0, step=0.1)
 petal_length = st.slider('Petal length (cm)', min_value=0.0, max_value=6.0, step=0.1)
