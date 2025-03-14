@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 from pickle import load
-import pandas as pd
 
 # Cargar el modelo entrenado
 with open('../models/iris_model.pkl', 'rb') as file:
